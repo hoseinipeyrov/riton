@@ -1,0 +1,33 @@
+[
+  {
+    "ContainingType": "Riton.Web.Endpoints.TodoLists",
+    "Method": "InsertTodoListFromCsv",
+    "RelativePath": "api/TodoLists/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "csv",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": true
+      },
+      {
+        "Name": "idempotencyKey",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "TodoLists"
+    ],
+    "EndpointName": "InsertTodoListFromCsv"
+  }
+]
