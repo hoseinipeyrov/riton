@@ -1,0 +1,415 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Downloads\\Riton\\Riton\\src\\Infrastructure\\Infrastructure.csproj": {}
+  },
+  "projects": {
+    "D:\\Downloads\\Riton\\Riton\\src\\Application\\Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Downloads\\Riton\\Riton\\src\\Application\\Application.csproj",
+        "projectName": "Riton.Application",
+        "projectPath": "D:\\Downloads\\Riton\\Riton\\src\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\hadi\\.nuget\\packages\\",
+        "outputPath": "D:\\Downloads\\Riton\\Riton\\src\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "D:\\Downloads\\Riton\\Riton\\NuGet.Config",
+          "C:\\Users\\hadi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Downloads\\Riton\\Riton\\src\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Downloads\\Riton\\Riton\\src\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Ardalis.GuardClauses": {
+              "target": "Package",
+              "version": "[4.6.0, )",
+              "versionCentrallyManaged": true
+            },
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )",
+              "versionCentrallyManaged": true
+            },
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[33.0.1, )",
+              "versionCentrallyManaged": true
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.9.2, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Ardalis.GuardClauses": "[4.6.0, )",
+            "AutoMapper": "[13.0.1, )",
+            "Azure.Extensions.AspNetCore.Configuration.Secrets": "[1.3.2, )",
+            "Azure.Identity": "[1.12.0, )",
+            "coverlet.collector": "[6.0.2, )",
+            "CsvHelper": "[33.0.1, )",
+            "FaceIT.Hangfire.Tags": "[1.9.0, )",
+            "FaceIT.Hangfire.Tags.SqlServer": "[1.9.2, )",
+            "FluentAssertions": "[6.12.0, )",
+            "FluentValidation.AspNetCore": "[11.3.0, )",
+            "FluentValidation.DependencyInjectionExtensions": "[11.9.2, )",
+            "Hangfire.AspNetCore": "[1.8.14, )",
+            "Hangfire.Console": "[1.4.3, )",
+            "Hangfire.Console.Extensions": "[2.0.0, )",
+            "Hangfire.Console.Extensions.Serilog": "[2.0.0, )",
+            "Hangfire.Core": "[1.8.14, )",
+            "Hangfire.MissionControl": "[0.10.0, )",
+            "Hangfire.SqlServer": "[1.8.14, )",
+            "IdentityStream.Hangfire.Console": "[2.0.0, )",
+            "MediatR": "[12.4.0, )",
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "[8.0.8, )",
+            "Microsoft.AspNetCore.Http.Features": "[5.0.17, )",
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "[8.0.8, )",
+            "Microsoft.AspNetCore.Identity.UI": "[8.0.8, )",
+            "Microsoft.AspNetCore.Mvc.Testing": "[8.0.8, )",
+            "Microsoft.AspNetCore.OpenApi": "[8.0.8, )",
+            "Microsoft.EntityFrameworkCore": "[8.0.8, )",
+            "Microsoft.EntityFrameworkCore.Design": "[8.0.8, )",
+            "Microsoft.EntityFrameworkCore.Relational": "[8.0.8, )",
+            "Microsoft.EntityFrameworkCore.SqlServer": "[8.0.8, )",
+            "Microsoft.EntityFrameworkCore.Tools": "[8.0.8, )",
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": "[8.0.0, )",
+            "Microsoft.Extensions.Configuration.Json": "[8.0.0, )",
+            "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore": "[8.0.8, )",
+            "Microsoft.NET.Test.Sdk": "[17.11.0, )",
+            "Moq": "[4.20.70, )",
+            "NSwag.AspNetCore": "[14.1.0, )",
+            "NSwag.MSBuild": "[14.1.0, )",
+            "nunit": "[3.14.0, )",
+            "NUnit.Analyzers": "[3.9.0, )",
+            "NUnit3TestAdapter": "[4.5.0, )",
+            "Respawn": "[6.2.1, )",
+            "rodriGS750.Hangfire.Dashboard.Themes.Dark": "[1.2.2, )",
+            "Testcontainers.MsSql": "[3.9.0, )"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Downloads\\Riton\\Riton\\src\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Downloads\\Riton\\Riton\\src\\Domain\\Domain.csproj",
+        "projectName": "Riton.Domain",
+        "projectPath": "D:\\Downloads\\Riton\\Riton\\src\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\hadi\\.nuget\\packages\\",
+        "outputPath": "D:\\Downloads\\Riton\\Riton\\src\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "D:\\Downloads\\Riton\\Riton\\NuGet.Config",
+          "C:\\Users\\hadi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.0, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Ardalis.GuardClauses": "[4.6.0, )",
+            "AutoMapper": "[13.0.1, )",
+            "Azure.Extensions.AspNetCore.Configuration.Secrets": "[1.3.2, )",
+            "Azure.Identity": "[1.12.0, )",
+            "coverlet.collector": "[6.0.2, )",
+            "CsvHelper": "[33.0.1, )",
+            "FaceIT.Hangfire.Tags": "[1.9.0, )",
+            "FaceIT.Hangfire.Tags.SqlServer": "[1.9.2, )",
+            "FluentAssertions": "[6.12.0, )",
+            "FluentValidation.AspNetCore": "[11.3.0, )",
+            "FluentValidation.DependencyInjectionExtensions": "[11.9.2, )",
+            "Hangfire.AspNetCore": "[1.8.14, )",
+            "Hangfire.Console": "[1.4.3, )",
+            "Hangfire.Console.Extensions": "[2.0.0, )",
+            "Hangfire.Console.Extensions.Serilog": "[2.0.0, )",
+            "Hangfire.Core": "[1.8.14, )",
+            "Hangfire.MissionControl": "[0.10.0, )",
+            "Hangfire.SqlServer": "[1.8.14, )",
+            "IdentityStream.Hangfire.Console": "[2.0.0, )",
+            "MediatR": "[12.4.0, )",
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "[8.0.8, )",
+            "Microsoft.AspNetCore.Http.Features": "[5.0.17, )",
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "[8.0.8, )",
+            "Microsoft.AspNetCore.Identity.UI": "[8.0.8, )",
+            "Microsoft.AspNetCore.Mvc.Testing": "[8.0.8, )",
+            "Microsoft.AspNetCore.OpenApi": "[8.0.8, )",
+            "Microsoft.EntityFrameworkCore": "[8.0.8, )",
+            "Microsoft.EntityFrameworkCore.Design": "[8.0.8, )",
+            "Microsoft.EntityFrameworkCore.Relational": "[8.0.8, )",
+            "Microsoft.EntityFrameworkCore.SqlServer": "[8.0.8, )",
+            "Microsoft.EntityFrameworkCore.Tools": "[8.0.8, )",
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": "[8.0.0, )",
+            "Microsoft.Extensions.Configuration.Json": "[8.0.0, )",
+            "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore": "[8.0.8, )",
+            "Microsoft.NET.Test.Sdk": "[17.11.0, )",
+            "Moq": "[4.20.70, )",
+            "NSwag.AspNetCore": "[14.1.0, )",
+            "NSwag.MSBuild": "[14.1.0, )",
+            "nunit": "[3.14.0, )",
+            "NUnit.Analyzers": "[3.9.0, )",
+            "NUnit3TestAdapter": "[4.5.0, )",
+            "Respawn": "[6.2.1, )",
+            "rodriGS750.Hangfire.Dashboard.Themes.Dark": "[1.2.2, )",
+            "Testcontainers.MsSql": "[3.9.0, )"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Downloads\\Riton\\Riton\\src\\Infrastructure\\Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Downloads\\Riton\\Riton\\src\\Infrastructure\\Infrastructure.csproj",
+        "projectName": "Riton.Infrastructure",
+        "projectPath": "D:\\Downloads\\Riton\\Riton\\src\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\hadi\\.nuget\\packages\\",
+        "outputPath": "D:\\Downloads\\Riton\\Riton\\src\\Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "D:\\Downloads\\Riton\\Riton\\NuGet.Config",
+          "C:\\Users\\hadi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Downloads\\Riton\\Riton\\src\\Application\\Application.csproj": {
+                "projectPath": "D:\\Downloads\\Riton\\Riton\\src\\Application\\Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.8, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Ardalis.GuardClauses": "[4.6.0, )",
+            "AutoMapper": "[13.0.1, )",
+            "Azure.Extensions.AspNetCore.Configuration.Secrets": "[1.3.2, )",
+            "Azure.Identity": "[1.12.0, )",
+            "coverlet.collector": "[6.0.2, )",
+            "CsvHelper": "[33.0.1, )",
+            "FaceIT.Hangfire.Tags": "[1.9.0, )",
+            "FaceIT.Hangfire.Tags.SqlServer": "[1.9.2, )",
+            "FluentAssertions": "[6.12.0, )",
+            "FluentValidation.AspNetCore": "[11.3.0, )",
+            "FluentValidation.DependencyInjectionExtensions": "[11.9.2, )",
+            "Hangfire.AspNetCore": "[1.8.14, )",
+            "Hangfire.Console": "[1.4.3, )",
+            "Hangfire.Console.Extensions": "[2.0.0, )",
+            "Hangfire.Console.Extensions.Serilog": "[2.0.0, )",
+            "Hangfire.Core": "[1.8.14, )",
+            "Hangfire.MissionControl": "[0.10.0, )",
+            "Hangfire.SqlServer": "[1.8.14, )",
+            "IdentityStream.Hangfire.Console": "[2.0.0, )",
+            "MediatR": "[12.4.0, )",
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "[8.0.8, )",
+            "Microsoft.AspNetCore.Http.Features": "[5.0.17, )",
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "[8.0.8, )",
+            "Microsoft.AspNetCore.Identity.UI": "[8.0.8, )",
+            "Microsoft.AspNetCore.Mvc.Testing": "[8.0.8, )",
+            "Microsoft.AspNetCore.OpenApi": "[8.0.8, )",
+            "Microsoft.EntityFrameworkCore": "[8.0.8, )",
+            "Microsoft.EntityFrameworkCore.Design": "[8.0.8, )",
+            "Microsoft.EntityFrameworkCore.Relational": "[8.0.8, )",
+            "Microsoft.EntityFrameworkCore.SqlServer": "[8.0.8, )",
+            "Microsoft.EntityFrameworkCore.Tools": "[8.0.8, )",
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": "[8.0.0, )",
+            "Microsoft.Extensions.Configuration.Json": "[8.0.0, )",
+            "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore": "[8.0.8, )",
+            "Microsoft.NET.Test.Sdk": "[17.11.0, )",
+            "Moq": "[4.20.70, )",
+            "NSwag.AspNetCore": "[14.1.0, )",
+            "NSwag.MSBuild": "[14.1.0, )",
+            "nunit": "[3.14.0, )",
+            "NUnit.Analyzers": "[3.9.0, )",
+            "NUnit3TestAdapter": "[4.5.0, )",
+            "Respawn": "[6.2.1, )",
+            "rodriGS750.Hangfire.Dashboard.Themes.Dark": "[1.2.2, )",
+            "Testcontainers.MsSql": "[3.9.0, )"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
